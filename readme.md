@@ -6,9 +6,11 @@
 This repository was used for a small scala presentation
 It shows the usage of some hints and tricks for working with scala
 
+All the code is inside the `src/test` directory sorted by the following parts:
+
 #### Part 1 - Deconstruction
 A little example about Deconstruction  
-`val person = Person("Otto", 23, "funny")`  
+`val person  Person("Otto", 23, "funny")`  
 `val Person(_, a, n) = person`
 
 #### Part 2 - Currying
