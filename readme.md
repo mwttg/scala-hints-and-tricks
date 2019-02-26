@@ -16,3 +16,11 @@ Decompose a (complex-)object into its class variables
 ### [Varargs](varargs/readme.md)
 *Variable Arguments* some sort of syntax that can handle an arbitrary number of parameters automatically – (using an array under 
 the hood.)
+
+
+
+ToDo-List
+* scala (idea) short-cuts for code
+  * like case match in .map()
+  * leave out Types (idea hints) 
+  * and so on
