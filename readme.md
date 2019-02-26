@@ -3,18 +3,16 @@
 ---
 
 ## Hints 'n' Tricks
-This repository was used for a small scala presentation
-It shows the usage of some hints and tricks for working with scala
+This repository is a collection of some *Hints 'n' Tricks* for Scala. The examples are mostly test's and a short description can 
+be found in the module itself.
 
-All the code is inside the `src/test` directory sorted by the following parts:
 
-#### Part 1 - Deconstruction
-A little example about Deconstruction  
-`val person  Person("Otto", 23, "funny")`  
-`val Person(_, a, n) = person`
+### [Currying](currying/readme.md)
+Break down a function that takes multiple arguments into a series of functions that take part of the arguments.
 
-#### Part 2 - Currying
-A little example about currying
+### [Deconstruction](deconstruction/readme.md)
+Decompose a (complex-)object into its class variables
 
-#### Part 3 - Varargs
-A little example for how to use `varargs` and an example for the `_*` (vararg expansion) reserved symbol
+### [Varargs](varargs/readme.md)
+*Variable Arguments* some sort of syntax that can handle an arbitrary number of parameters automatically – (using an array under 
+the hood.)
