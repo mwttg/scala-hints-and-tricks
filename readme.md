@@ -3,7 +3,7 @@
 ---
 
 ## Hints 'n' Tricks
-This repository is a collection of some *Hints 'n' Tricks* for Scala. The examples are mostly test's and a short description can 
+This repository is a collection of some *Hints 'n' Tricks* for Scala. The examples are mostly tests and a short description can 
 be found in the module itself.
 
 
