@@ -6,8 +6,9 @@ object Application {
     val input = "MeSsAgE-to-DeCoDe"
     // val input = "1"
 
-    val decoded1 = Decode(DecodeOneFunc(), input)
-    val decoded2 = Decode(DecodeTwoFunc(), input)
+    // give in the function = DecoderFunctions.decode1 its not calling the function(calling is: DecoderFunctions.decode1())
+    val decoded1 = Decode(DecoderFunctions.decode1, input)
+    val decoded2 = Decode(DecoderFunctions.decode2, input)
 
     println(decoded1)
     println(decoded2)
