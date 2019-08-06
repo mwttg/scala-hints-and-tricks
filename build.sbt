@@ -18,3 +18,6 @@ lazy val `deconstruction` = (project in file("deconstruction"))
 
 lazy val `varargs` = (project in file("varargs"))
   .settings(commonSettings)
+
+lazy val `extract-similarities` = (project in file("extract-similarities"))
+  .settings(commonSettings)
