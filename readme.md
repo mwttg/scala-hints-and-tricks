@@ -20,6 +20,9 @@ Extracting similarities: the OO-Way vs the functional way
 *Variable Arguments* some sort of syntax that can handle an arbitrary number of parameters automatically – (using an array under 
 the hood.)
 
+### [Write Functions](write-functions/readme.md)
+A collection of possibilities, how to write functions and what to do with it
+
 
 
 ToDo-List

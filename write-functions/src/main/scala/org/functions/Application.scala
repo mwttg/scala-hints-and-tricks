@@ -9,7 +9,7 @@ object Application {
     println(result2)
 
     val input   = List(1, 2, 3, 4)
-    val result3 = input.map(OtherFunction.incBy5)
+    val result3 = input.map(OtherFunction.incBy5) //
     println(result3)
   }
 }
