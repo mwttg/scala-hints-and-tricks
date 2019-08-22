@@ -21,3 +21,6 @@ lazy val `varargs` = (project in file("varargs"))
 
 lazy val `extract-similarities` = (project in file("extract-similarities"))
   .settings(commonSettings)
+
+lazy val `write-functions` = (project in file("write-functions"))
+  .settings(commonSettings)
