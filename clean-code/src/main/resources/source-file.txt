@@ -1,0 +1,5 @@
+This is the source file
+we are searching for lines which starts with #marker# inside of
+that file and want to read the values after it.
+#marker#key1-12345
+#marker#key2-5678
